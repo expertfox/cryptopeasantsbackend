@@ -1,0 +1,26 @@
+{
+  "name": "crypto-peasants-backend",
+  "version": "1.0.0",
+  "description": "backend for crypto-peasants",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rajith Bandara",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.0",
+    "mongoose": "^6.0.6",
+    "node-fetch": "^3.0.0",
+    "request": "^2.88.2",
+    "web3": "^1.5.2"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "nodemon": "^2.0.12"
+  }
+}
